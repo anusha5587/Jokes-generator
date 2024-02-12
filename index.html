@@ -24,6 +24,7 @@
       src="https://kit.fontawesome.com/4b183af785.js"
       crossorigin="anonymous"
     ></script>
+    <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
     <link rel="stylesheet" href="/src/style.css" />
     <title>AI Poem Generator</title>
   </head>
@@ -34,24 +35,19 @@
         <h1>AI Poem Generator</h1>
       </header>
       <main>
-        <form>
-          <form>
-            <input
-              type="text"
-              placeholder="Enter the topic of the poem"
-              autofocus
-              required
-              autocomplete="off"
-              class="instructions"
-            />
-            <input type="submit" class="button" />
-          </form>
+        <form id="poem-generator-form">
+          <input
+            type="text"
+            placeholder="Enter the topic of the poem"
+            autofocus
+            required
+            autocomplete="off"
+            class="instructions"
+          />
+          <input type="submit" class="button" />
         </form>
-        <div class="poem">
-          The poem
-          <br />
-          Poetry description
-        </div>
+
+        <div class="poem" id="poem"></div>
       </main>
     </div>
     <footer>
