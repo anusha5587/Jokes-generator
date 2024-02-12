@@ -5,11 +5,8 @@ body {
 }
 
 body {
-  background: linear-gradient(
-    179.4deg,
-    rgb(253, 240, 233) 2.2%,
-    rgb(255, 194, 203) 96.2%
-  );
+  background: rgb(255, 194, 203) 96.2%;
+
   background-repeat: no-repeat;
   font-style: "Roboto", sans-serif;
 }
@@ -66,14 +63,12 @@ form {
 }
 
 footer {
+  width: 100%;
   text-align: center;
   font-size: 12px;
-  background: linear-gradient(
-    179.4deg,
-    rgb(253, 240, 233) 2.2%,
-    rgb(255, 194, 203) 96.2%
-  );
-  background-repeat: no-repeat;
+  bottom: 0;
+  margin-bottom: 40px;
+  position: relative;
 }
 
 a {
