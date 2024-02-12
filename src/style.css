@@ -1,0 +1,82 @@
+html,
+body {
+  height: 100%;
+  margin: 0;
+}
+
+body {
+  background: linear-gradient(
+    179.4deg,
+    rgb(253, 240, 233) 2.2%,
+    rgb(255, 194, 203) 96.2%
+  );
+  background-repeat: no-repeat;
+  font-style: "Roboto", sans-serif;
+}
+
+.container {
+  margin: 120px auto;
+  max-width: 800px;
+  color: grey;
+}
+
+h1 {
+  font-weight: 800;
+  font-size: 35px;
+  line-height: 1.5;
+  color: grey;
+  text-align: center;
+}
+
+form {
+  padding: 30px;
+  background-color: white;
+  border-radius: 10px;
+  display: flex;
+  margin-bottom: 30px;
+}
+
+.instructions {
+  padding: 16px;
+  border: 1px solid gray;
+  width: 70%;
+  font-size: 16px;
+  border-radius: 40px;
+  line-height: 20px;
+}
+
+.button {
+  margin-left: 10px;
+  background: gray;
+  color: white;
+  border: none;
+  border-radius: 50px;
+  width: 20%;
+  font-size: 16px;
+  padding: 16px;
+}
+
+.poem {
+  font-size: 15px;
+  background-color: whitesmoke;
+  padding: 20px;
+  line-height: 2;
+  border-left: 3px solid gray;
+  box-shadow: 0px 4px 30px 0px #fed5d8;
+}
+
+footer {
+  text-align: center;
+  font-size: 12px;
+  background: linear-gradient(
+    179.4deg,
+    rgb(253, 240, 233) 2.2%,
+    rgb(255, 194, 203) 96.2%
+  );
+  background-repeat: no-repeat;
+}
+
+a {
+  color: brown;
+  font-weight: bold;
+}
