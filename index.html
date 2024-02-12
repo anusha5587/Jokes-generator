@@ -3,6 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
       rel="stylesheet"
@@ -36,27 +37,33 @@
         <h1>AI Poem Generator</h1>
       </header>
       <main>
-        <form id="poem-generator-form">
-          <input
-            type="text"
-            placeholder="Enter the topic of the poem"
-            autofocus
-            required
-            autocomplete="off"
-            class="instructions"
-            id="user-instructions"
-          />
-          <input type="submit" class="button" />
-        </form>
-
-        <div class="poem" id="poem"></div>
+        <div class="form-container">
+          <form id="poem-generator-form">
+            <input
+              type="text"
+              placeholder="Enter the topic of the poem"
+              autofocus
+              required
+              autocomplete="off"
+              class="instructions"
+              id="user-instructions"
+            />
+            <input type="submit" class="button" />
+          </form>
+          <div class="hint">i.e: Flower, Paris, Cheese</div>
+        </div>
+        <div class="poem hidden" id="poem"></div>
       </main>
       <footer>
-        This project was coded by Anoosha Anand, and it is open-sourced
+        This project was coded by <strong class="name">Anoosha Anand</strong>,
+        and it is open-sourced
         <a href="https://github.com/anusha5587/Jokes-generator" target="_blank"
           >Github</a
         >
-        and is hosted in Netlify
+        and is hosted in
+        <a href="https://poem-generatorai.netlify.app/" target="_blank"
+          >Netlify</a
+        >
       </footer>
     </div>
 
